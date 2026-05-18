@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(255, 255, 255, 0.636);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.informacoes{
+    height: 250px;
+    width: 500px;
+}
+
+.preencherContato{
+    height: 50px;
+    width: 250px;
+    display: flex;
+    margin-left: auto
+}
+
+input{
+    height: 50px;
+    width: 500px;
+    display: flex;  
+}
