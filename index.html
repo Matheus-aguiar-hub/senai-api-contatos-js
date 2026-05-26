@@ -9,28 +9,31 @@
 </head>
 <body>
 
+    <form action="" method="get">
+        <input type="text" placeholder="Nome..."    name="nome"    id="nome">
+        <input type="text" placeholder="Celular..." name="celular" id="celular">
+        <input type="text" placeholder="Foto..."    name="foto"    id="foto">
+    </form>
+
+    <form action="" method="get">
+        <input type="text" placeholder="Email..."    name="email"    id="email">
+        <input type="text" placeholder="Endereço..." name="endereco" id="endereco">
+        <input type="text" placeholder="Cidade..."   name="cidade"   id="cidade">
+    </form>
+
+    <button id="preencherContato">Adicionar</button>
+
     <main>
-<form action="" method="get">
-
-    <input type="text" placeholder="Nome..." name="nome" id="nome">
-
-    <input type="text" placeholder="Celular..." name="celular" id="celular">
-
-    <input type="text" placeholder="Foto..." name="foto" id="foto">
-
-    <input type="text" placeholder="Email..." name="email" id="email">
-
-    <input type="text" placeholder="Endereço..." name="endereco" id="endereco">
-
-    <input type="text" placeholder="Cidade..." name="cidade" id="cidade">
-
-    <button id="preencherContato" class="preencherContato">
-        <p>Adicionar</p>
-    </button>
-</form>
-
-        <div id="mostrar-informacoes" class="mostrar-informacoes"></div>
+        <nav>
+            <div><p>ID</p></div>
+            <div><p>NOME</p></div>
+            <div><p>IMAGEM</p></div>
+            <div><p>AÇÃO</p></div>
+        </nav>
+        <table>
+            <tbody id="lista-contatos"></tbody>
+        </table>
     </main>
-    
+
 </body>
 </html>

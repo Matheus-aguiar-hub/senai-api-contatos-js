@@ -1,11 +1,17 @@
 body{
-    background-color: rgba(255, 255, 255, 0.636);
+    background-color: rgba(99, 95, 95, 0.636);
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
 }
 
 form{
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    gap: 200px;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .informacoes{
@@ -13,15 +19,31 @@ form{
     width: 500px;
 }
 
-.preencherContato{
+button{
     height: 50px;
     width: 250px;
     display: flex;
-    margin-left: auto
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 20px;
 }
 
 input{
     height: 50px;
     width: 500px;
     display: flex;  
+}
+
+main{
+    margin-top: 50px;
+    height: 550px;
+    width: 1910px;
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+    display: flex;
+    gap: 27%;
+    margin-left: 100px;
+    border-color: black;
 }
